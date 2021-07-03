@@ -149,7 +149,29 @@ header::after{
     font-size: 20px;
 }
 
+.html-service{
+    float: left;
+    width: 48%;
+}
+
+.css-service{
+    float: right;
+    width: 48%;
+}
+
+.service::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.service{
+    background-color: pink;
+}
+
 footer{
     background-color: peru;
     padding: 20px;
 }
+
+
