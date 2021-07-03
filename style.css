@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.logo-left{
+    float: left;
+    width: 30%;
+}
+
+.logo-left img{
+    width: 100px;
+    height: 100px;
+}
+
+.main-menu-right{
+    float: right;
+    width: 70%;
+}
+
+.main-menu-right ul{
+    list-style: none;
+    text-align: right;
+}
+.main-menu-right ul li{
+    display: inline-block;
+}
+
+.main-menu-right ul li a{
+    display: block;
+    padding: 0 30px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 100px;
+    color: #FFF;
+}
+header{
+    background-color: green;
+}
+
+header::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+.banner-section{
+    background-image: url(img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.banner-text-box h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.banner-text-box p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.my-image{
+    float: left;
+    width: 48%;
+}
+
+.about-text{
+    float: right;
+    width: 48%;
+}
+.about-section{
+    background-color: #ddd;
+    padding: 50px 0;
+}
+.about-section::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.name-color{
+    color: orangered;
+    font-size: 16px;
+    
+}
+.name{margin-bottom: 30px;}
+
+.about-text h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.about-text p{
+    font-size: 16px;
+}
+.skill-section{
+    text-align: center;
+}
+
+.skill-html{
+    float: left;
+    width: 48%;
+}
+
+.skill-css{
+    float: right;
+    width: 48%;
+}
+
+.skill-img img{
+  
+    
+}
+.skill-text h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.skill-img{
+    text-align: center;
+
+}
+.skill-section{
+    padding:50px 0;
+    background-color: palegoldenrod;
+}
+.skill-section::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    background-color: peru;
+    padding: 20px;
+}
